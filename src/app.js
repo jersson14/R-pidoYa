@@ -1,0 +1,1 @@
+processPayment(orderId, amount) { const order = this.orders.find(o => o.id === orderId); if (order) { order.status = 'paid'; order.amount = amount; return true;

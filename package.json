@@ -1,0 +1,1 @@
+{ "name": "rapidoya-delivery-app", "version": "1.0.0", "scripts": { "start": "node src/index.js", "test": "jest", "test:watch": "jest --watch", "build": "echo 'Build completed'" }, "devDependencies": { "jest": "^29.0.0" } }

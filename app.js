@@ -1,0 +1,1 @@
+// app.js - Aplicación de Delivery class DeliveryApp { constructor() { this.orders = []; } createOrder(order) { const newOrder = { id: Date.now(), ...order, status: 'pending' }; this.orders.push(newOrder); return newOrder; } getOrders() { return this.orders; } } module.exports = DeliveryApp;
